@@ -1,0 +1,26 @@
+
+flex-directions row:          
+
+
+
+/* VARIABLES */
+$color-titulos: blue;
+
+/* tamaños de tipografia */
+$tamanio-grande: 42px;
+$tamanio-chico: 4px;
+
+/* mixins 
+@mixin boton {
+    background-color: darkgreen
+} */
+
+h1 {
+    color: $color-titulos;
+    font-size: $tamanio-grande;
+}
+
+h2 {
+    color: blue $color-titulos
+    font-size: (42px)
+}
